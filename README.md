@@ -1,6 +1,6 @@
 # DingTalk
 
-# 企业内部接入钉钉的主要流程：
+### 接入钉钉的主要流程：
 - AuthHelper.getSign()：SHA-1签名，得到signature
 - 签名校验流程：
   - AuthHelper.getConfig()：后端准备好，前端校验参数
